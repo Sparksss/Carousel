@@ -1,0 +1,42 @@
+.carousel {
+    position: relative;
+    width: 1300px;
+    height: 72px;
+    overflow: hidden;
+}
+
+.arrow_back,
+.arrow_next {
+    padding: 0;
+}
+
+.arrow_back {
+    position: absolute;
+    overflow: visible;
+    top: 50%;
+}
+
+.arrow_next {
+    position: absolute;
+    overflow: visible;
+    top: 50%;
+    right: 0px;
+    transform: rotate(180deg);
+}
+
+.gallery {
+    position: absolute;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 1200px;
+    height: 72px;
+    overflow-x: visible;
+    transition: 1s;
+    right: 50px;
+}
+
+.image_partner img.partner_logo {
+    width: 90px;
+    height: 72px;
+}
